@@ -3,8 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
+    font-family: 'Noto Sans', sans-serif;}
 header{
     margin-bottom:50px;
 }
@@ -38,13 +37,19 @@ main{
 
 .cerchio{
     display:inline-block;
-    width:20px;
-    height:20px;
+    width:30px;
+    height:30px;
     border: 2px solid;
     border-radius:50%;
     vertical-align:sub;
 }
 
+.checkmark{
+    font-size:20px;
+    line-height:5px;
+    vertical-align: middle;
+    text-align:justify;
+}
 
 /* colori sfondo  */
 .white{
@@ -75,10 +80,23 @@ main{
 /* colori cerchietti  */
 
 .border_green{
-    border-color:rgb(129, 221, 205);;
+    border-color:rgb(129, 221, 205);
 }
 .border_red{
     border-color:rgb(241, 0, 0);
+}
+
+/* colori testo */
+.white_text, .label{
+    color: white;
+}
+
+.red_text{
+    color:rgb(241, 0, 0);
+}
+
+.green_text{
+    color:rgb(129, 221, 205);
 }
 
 /* definisco dimensioni  */
@@ -89,16 +107,18 @@ main{
 }
 
 #add_task, #add_section{
-    padding: 5px;
+    padding: 5px 10px;
     font-size:20px;
+    border-color: rgb(220, 220, 220);
 
 }
 /* stilizzo ogni nota  */
 .notes{
     margin: 30px;
     color: rgb(67, 72, 81);
+    font-size: 30px;
 }
-.item, #add_task, #add_section{
+ #add_task, #add_section{
     font-weight: 600;
 }
 
@@ -112,8 +132,7 @@ h2::before{
 /* creo template label  */
 .label{
     padding:5px 10px;
-    font-size:10px;
-    color:white;
+    font-size:18px;
     border-radius:10px;
     display:inline-block;
     vertical-align:sub;
