@@ -10,11 +10,12 @@ header{
 }
 .logo{
     width: 70px;
+    padding-left: 10px;
 }
 .logo_title{
     display:inline-block;
     font-size:45px;
-    padding-bottom:45px;
+    vertical-align: top;
 }
 
 /* visualizzo il container */
@@ -89,6 +90,8 @@ main{
 
 #add_task, #add_section{
     padding: 5px;
+    font-size:20px;
+
 }
 /* stilizzo ogni nota  */
 .notes{
