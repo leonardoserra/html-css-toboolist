@@ -68,3 +68,10 @@ main{
 h2::before{
     content:'\2714';
 }
+
+/* creo template label  */
+.label{
+    color:white;
+    border-radius:5px;
+    display:inline-block;
+}
