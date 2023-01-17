@@ -136,7 +136,7 @@ h2::before{
 .label{
     padding:5px 10px;
     font-size:18px;
-    border-radius:10px;
+    border-radius:20px;
     display:inline-block;
     vertical-align:sub;
 }
