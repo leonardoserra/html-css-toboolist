@@ -24,6 +24,10 @@ main{
     height:20px;
     border: 2px solid;
     border-radius:50%;
+    vertical-align:sub;
+}
+.checkmark{
+    margin:auto;
 }
 
 /* colori sfondo  */
@@ -107,4 +111,5 @@ h2::before{
     color:white;
     border-radius:10px;
     display:inline-block;
+    vertical-align:sub;
 }
