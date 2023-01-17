@@ -35,7 +35,30 @@ main{
     border-radius:5px;
 }
 
+/* stilizzo ogni nota  */
+.notes{
+    margin: 30px;
+    padding:30px;
+    color: rgb(67, 72, 81);
+    font-size: 30px;
+}
 
+.item{
+    padding:10px;
+}
+
+#button_container{
+    padding: 10px 40px 10px 40px;
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+
+#add_task, #add_section{
+    padding: 5px 10px;
+    font-size:20px;
+    border-color: rgb(220, 220, 220);
+    font-weight: 600;
+
+}
 .cerchio{
     display:inline-block;
     width:30px;
@@ -101,26 +124,6 @@ main{
 
 /* definisco dimensioni  */
 
-#button_container{
-    padding: 10px 40px 10px 40px;
-    border-bottom: 2px solid rgb(220, 220, 220);
-}
-
-#add_task, #add_section{
-    padding: 5px 10px;
-    font-size:20px;
-    border-color: rgb(220, 220, 220);
-
-}
-/* stilizzo ogni nota  */
-.notes{
-    margin: 30px;
-    color: rgb(67, 72, 81);
-    font-size: 30px;
-}
- #add_task, #add_section{
-    font-weight: 600;
-}
 
 
 
