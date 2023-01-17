@@ -11,6 +11,7 @@ main{
     margin:40px 100px 40px;
     border: 1px solid blue;
 }
+
 #logo_title {
     display:inline-block;
 }
@@ -21,9 +22,17 @@ main{
     border: 1px solid black;
 }
 
+/* definisco dimensioni  */
+
 #button_container{
     margin:5px 10px 5px 10px;
 }
+
 .notes{
-    margin:30px;
+    margin: 30px;
+}
+
+/* pseudoselettori per aggiungere spunte ai titoli  */
+h2::before{
+    content:'\2714'
 }
