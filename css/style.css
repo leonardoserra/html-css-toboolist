@@ -7,19 +7,35 @@
 }
 
 
-main{
-    margin:40px 100px 40px;
-    border: 1px solid blue;
+/* do il colore blu al body  */
+body{
+    background-color:rgb(56, 170, 255);
 }
 
-#logo_title {
+header{
+    background-color:white;
+}
+/* coloro e stilizzo bordi del main  */
+main{
+    background-color: white;
+    margin:40px 100px 40px;
+    border: 1px solid blue;
+    border-radius:5px;
+}
+
+.logo{
+    width: 70px;
+}
+.logo_title{
     display:inline-block;
+    font-size:45px;
 }
 
 /* visualizzo il container */
 .title_container{
-    height: 50px;
-    border: 1px solid black;
+    height: 90px;
+    padding:10px;
+   
 }
 
 /* definisco dimensioni  */
@@ -34,5 +50,5 @@ main{
 
 /* pseudoselettori per aggiungere spunte ai titoli  */
 h2::before{
-    content:'\2714'
+    content:'\2714';
 }
