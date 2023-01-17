@@ -6,6 +6,20 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo{
+    width: 70px;
+}
+.logo_title{
+    display:inline-block;
+    font-size:45px;
+    padding-bottom:45px;
+}
+
+/* visualizzo il container */
+.title_container{
+    height: 90px;
+    padding:10px; 
+}
 
 
 /* coloro e stilizzo bordi del main  */
@@ -26,9 +40,7 @@ main{
     border-radius:50%;
     vertical-align:sub;
 }
-.checkmark{
-    margin:auto;
-}
+
 
 /* colori sfondo  */
 .white{
@@ -64,26 +76,12 @@ main{
 .border_red{
     border-color:rgb(241, 0, 0);
 }
-.logo{
-    width: 70px;
-}
-.logo_title{
-    display:inline-block;
-    font-size:45px;
-    vertical-align:baseline;
-}
-
-/* visualizzo il container */
-.title_container{
-    height: 90px;
-    padding:10px;
-   
-}
 
 /* definisco dimensioni  */
 
 #button_container{
-    margin:10px 40px 10px 40px;
+    padding: 10px 40px 10px 40px;
+    border-bottom: 2px solid rgb(143, 143, 143);
 }
 
 /* stilizzo ogni nota  */
