@@ -79,22 +79,19 @@ main{
 /* definisco dimensioni  */
 
 #button_container{
-    margin:5px 10px 5px 40px;
+    margin:10px 40px 10px 40px;
 }
 
 /* stilizzo ogni nota  */
 .notes{
     margin: 30px;
 }
-.item{
+.item, #add_task, #add_section{
     font-weight: 600;
 }
 
 
-#add_task{
-    padding: 5px;
-}
-#add_section{
+#add_task, #add_section{
     padding: 5px;
 }
 
@@ -105,7 +102,9 @@ h2::before{
 
 /* creo template label  */
 .label{
+    padding:5px 10px;
+    font-size:10px;
     color:white;
-    border-radius:5px;
+    border-radius:10px;
     display:inline-block;
 }
