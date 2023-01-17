@@ -8,21 +8,26 @@
 
 
 /* do il colore blu al body  */
-body{
-    background-color:rgb(56, 170, 255);
-}
+
 
 header{
     background-color:white;
 }
 /* coloro e stilizzo bordi del main  */
 main{
-    background-color: white;
     margin:40px 100px 40px;
     border: 1px solid blue;
+}
+.bordi_tondi{
     border-radius:5px;
 }
+.white{
+    background-color: white;
+}
+.blue{
+    background-color:rgb(56, 170, 255);
 
+}
 .logo{
     width: 70px;
 }
