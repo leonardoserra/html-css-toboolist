@@ -140,3 +140,7 @@ h2::before{
     display:inline-block;
     vertical-align:sub;
 }
+
+footer{
+    text-align:center;
+}
