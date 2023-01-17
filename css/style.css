@@ -23,11 +23,11 @@ main{
     border-radius:5px;
 }
 
-.cerchio_verde{
+.cerchio{
     display:inline-block;
     width:20px;
     height:20px;
-    border: 1px solid green;
+    border: 1px solid;
     border-radius:50%;
 }
 
@@ -37,7 +37,21 @@ main{
 }
 .blue{
     background-color:rgb(56, 170, 255);
-
+}
+.green{
+    background-color:rgb(44, 198, 171);
+}
+.violet{
+    background-color:rgb(171, 93, 230);
+}
+.orange{
+    background-color:rgb(250, 155, 0);
+}
+.pink{
+    background-color:rgb(236, 74, 157);
+}
+.light_green{
+    background-color:rgb(163, 209, 20);
 }
 .logo{
     width: 70px;
