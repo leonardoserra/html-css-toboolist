@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
+header{
+    margin-bottom:50px;
+}
 .logo{
     width: 70px;
 }
@@ -24,7 +26,8 @@
 
 /* coloro e stilizzo bordi del main  */
 main{
-    margin:40px 100px 40px;
+    margin:auto;
+    width:70%;
     border: 1px solid blue;
 }
 /* stili di bordo  */
@@ -81,21 +84,22 @@ main{
 
 #button_container{
     padding: 10px 40px 10px 40px;
-    border-bottom: 2px solid rgb(143, 143, 143);
+    border-bottom: 2px solid rgb(220, 220, 220);
 }
 
+#add_task, #add_section{
+    padding: 5px;
+}
 /* stilizzo ogni nota  */
 .notes{
     margin: 30px;
+    color: rgb(67, 72, 81);
 }
 .item, #add_task, #add_section{
     font-weight: 600;
 }
 
 
-#add_task, #add_section{
-    padding: 5px;
-}
 
 /* pseudoselettori per aggiungere spunte ai titoli  */
 h2::before{
