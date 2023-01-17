@@ -5,3 +5,25 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+main{
+    margin:40px 100px 40px;
+    border: 1px solid blue;
+}
+#logo_title {
+    display:inline-block;
+}
+
+/* visualizzo il container */
+.title_container{
+    height: 50px;
+    border: 1px solid black;
+}
+
+#button_container{
+    margin:5px 10px 5px 10px;
+}
+.notes{
+    margin:30px;
+}
