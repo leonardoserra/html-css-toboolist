@@ -7,12 +7,7 @@
 }
 
 
-/* do il colore blu al body  */
 
-
-header{
-    background-color:white;
-}
 /* coloro e stilizzo bordi del main  */
 main{
     margin:40px 100px 40px;
@@ -27,7 +22,7 @@ main{
     display:inline-block;
     width:20px;
     height:20px;
-    border: 1px solid;
+    border: 2px solid;
     border-radius:50%;
 }
 
@@ -53,12 +48,25 @@ main{
 .light_green{
     background-color:rgb(163, 209, 20);
 }
+.soft_grey{
+    background-color:rgb(248, 249, 250);
+}
+
+/* colori cerchietti  */
+
+.border_green{
+    border-color:rgb(129, 221, 205);;
+}
+.border_red{
+    border-color:rgb(241, 0, 0);
+}
 .logo{
     width: 70px;
 }
 .logo_title{
     display:inline-block;
     font-size:45px;
+    vertical-align:baseline;
 }
 
 /* visualizzo il container */
@@ -71,11 +79,23 @@ main{
 /* definisco dimensioni  */
 
 #button_container{
-    margin:5px 10px 5px 10px;
+    margin:5px 10px 5px 40px;
 }
 
+/* stilizzo ogni nota  */
 .notes{
     margin: 30px;
+}
+.item{
+    font-weight: 600;
+}
+
+
+#add_task{
+    padding: 5px;
+}
+#add_section{
+    padding: 5px;
 }
 
 /* pseudoselettori per aggiungere spunte ai titoli  */
