@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'arial', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 header{
@@ -71,7 +71,7 @@ main{
 ul{
     list-style:none;
     color:rgb(67, 72, 81);
-    padding:35px;
+    padding:15px 35px;
 }
 
 li{
@@ -81,7 +81,7 @@ li{
     display:inline-block;
     width:20px;
     height:20px;
-    border: 2px solid rgb(44, 198, 171);
+    border: 1px solid rgb(44, 198, 171);
     border-radius:50%;
     vertical-align:middle;
 }
@@ -90,7 +90,7 @@ li{
     display:inline-block;
     width:20px;
     height:20px;
-    border: 2px solid rgb(241, 0, 0);
+    border: 1px solid rgb(241, 0, 0);
     border-radius:50%;
     vertical-align:middle;
 }
@@ -99,9 +99,9 @@ li{
     content:'\2713';
     display:inline-block;
     font-size:12px;
-    padding-left: 4px;
+    padding-left: 4.5px;
     color:rgb(44, 198, 171);
-    vertical-align:top;
+    vertical-align:middle;
 }
 
 .croce::before{
@@ -110,30 +110,18 @@ li{
     font-size:12px;
     padding-left: 4px;
     color:rgb(241, 0, 0);
-    vertical-align:top;
+    vertical-align:middle;
 }
 
+.task{
+    font-size:large;
+    font-weight:700;
+}  
 .task::before{
     content:'\2713';
-    font-size:large;
-    font-weight: bold;
-}
-/* .cerchio{
-    display:inline-block;
-    width:30px;
-    height:30px;
-    border: 2px solid;
-    border-radius:50%;
-    vertical-align:text-bottom;
 }
 
-.checkmark{
-    font-size:20px;
-    vertical-align:top;
-    padding-left:5px;
-} */
-
-/* colori sfondo  */
+/* palette colori  */
 .white{
     background-color: white;
 }
@@ -159,14 +147,6 @@ li{
     background-color:rgb(248, 249, 250);
 }
 
-/* colori cerchietti  */
-
-.border_green{
-    border-color:rgb(129, 221, 205);
-}
-.border_red{
-    border-color:rgb(241, 0, 0);
-}
 
 /* colori testo */
 .white_text, .label{
@@ -181,20 +161,10 @@ li{
     color:rgb(129, 221, 205);
 }
 
-/* definisco dimensioni  */
-
-
-
-
-/* pseudoselettori per aggiungere spunte ai titoli  */
-/* .notes h2::before{
-    content:'\2713';
-} */
-
 /* creo template label  */
 .label{
     padding:5px 10px;
-    font-size:18px;
+    font-size:12px;
     border-radius:20px;
     display:inline-block;
     vertical-align:sub;
