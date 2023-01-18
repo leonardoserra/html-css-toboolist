@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'arial', sans-serif;
 }
 
 header{
@@ -66,7 +66,59 @@ main{
     font-weight: 600;
 
 }
-.cerchio{
+
+/* stilizzo la lista */
+ul{
+    list-style:none;
+    color:rgb(67, 72, 81);
+    padding:35px;
+}
+
+li{
+    padding:5px;
+}
+.cerchio_verde{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border: 2px solid rgb(44, 198, 171);
+    border-radius:50%;
+    vertical-align:middle;
+}
+
+.cerchio_rosso{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border: 2px solid rgb(241, 0, 0);
+    border-radius:50%;
+    vertical-align:middle;
+}
+
+.spunta::before{
+    content:'\2713';
+    display:inline-block;
+    font-size:12px;
+    padding-left: 4px;
+    color:rgb(44, 198, 171);
+    vertical-align:top;
+}
+
+.croce::before{
+    content:'\2715';
+    display:inline-block;
+    font-size:12px;
+    padding-left: 4px;
+    color:rgb(241, 0, 0);
+    vertical-align:top;
+}
+
+.task::before{
+    content:'\2713';
+    font-size:large;
+    font-weight: bold;
+}
+/* .cerchio{
     display:inline-block;
     width:30px;
     height:30px;
@@ -79,7 +131,7 @@ main{
     font-size:20px;
     vertical-align:top;
     padding-left:5px;
-}
+} */
 
 /* colori sfondo  */
 .white{
@@ -135,9 +187,9 @@ main{
 
 
 /* pseudoselettori per aggiungere spunte ai titoli  */
-.notes h2::before{
+/* .notes h2::before{
     content:'\2713';
-}
+} */
 
 /* creo template label  */
 .label{
