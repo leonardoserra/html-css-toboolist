@@ -13,13 +13,15 @@ header{
     width: 80px;
     height: 70px;
     padding-left: 10px;
+    vertical-align: middle;
 }
 .logo_title{
     width: 200px;
     height: 50px;
-    display:inline-block;
+    /* display:inline-block; */
     font-size:45px;
-    vertical-align: top;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
 /* visualizzo il container */
